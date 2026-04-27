@@ -40,19 +40,7 @@ if os.path.isfile(md_tpr) and os.path.isfile(md_xtc):
             print("Protein RMSD xvg file created.")
         except:
             print(output[0].decode('utf-8'))
-
-
-        try:
-            cmd = "gmx rms -s "+em_tpr+" -f "+center_xtc_file+" -o rmsd_com_"+outfile+".xvg -tu ns"
-            rmsd = Popen(cmd, shell=True, stdout=PIPE, stdin=PIPE, stderr=STDOUT)
-            rmsd.stdin.write(b"4 \n\n 4")
-            rmsd.stdin.flush()
-            output = rmsd.communicate()
-            print("Crystal vs Equilibrated RMSD xvg file created.")
-        except:
-            print(output[0].decode('utf-8'))
-
-
+     
 #RoG Graph (Radius of gyration)
         try:
             print("Gyration Graph")
