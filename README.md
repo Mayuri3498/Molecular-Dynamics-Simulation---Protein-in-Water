@@ -30,6 +30,10 @@ AUTOMATED PYTHON CODE
    
    python3 Lysozyme_mda.py
 
+6. For visualisation of the plots rum visualisation.py code and input the .xvg files as input for generating the graph.
+
+   python3 visualisation.py
+
 REFERENCES
 1. Kuzmanic A, Bowman GR, Juarez-Jimenez J, Michel J, Gervasio FL. Investigating Cryptic Binding Sites by Molecular Dynamics Simulations. Acc Chem Res. 2020 Mar 17;53(3):654-661. doi: 10.1021/acs.accounts.9b00613. Epub 2020 Mar 5. PMID: 32134250; PMCID: PMC7263906.
 2. Ahmed M, Maldonado AM, Durrant JD. From byte to bench to bedside: molecular dynamics simulations and drug discovery. BMC Biol. 2023 Dec 29;21(1):299. doi: 10.1186/s12915-023-01791-z. PMID: 38155355; PMCID: PMC10755930.
