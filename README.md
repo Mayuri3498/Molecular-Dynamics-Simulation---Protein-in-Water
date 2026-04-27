@@ -22,9 +22,12 @@ REQUIREMENTS
 AUTOMATED PYTHON CODE
 1. Replace the protein input filename and enter the output filename in the Lysozyme_in_water.py python script.
 2. Run the python code.
+   
    python3 Lysozyme_in_water.py
+   
 4. All the files will be generated after the molecular dynamics simulation step.
 5. Post-molecular dynamics simulation analysis are to be performed. Enter the md_tpr, md_xtc, em_tpr and output filename without extension. The protein center xtc file, protein rmsd, radius of gyration, rmsf, solvent accessible surface area and hydrogen bond .xvg files will be generated. Visualisation of these parameters can be analysed using graphs.
+   
    python3 Lysozyme_mda.py
 
 REFERENCES
