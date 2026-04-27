@@ -13,11 +13,13 @@ GROMACS stands for GROnigen Machine for Chemical Simulation is a molecular dynam
 
 The protein was immerged into the cubic box with a minimum distance of 10 Å from the center to the box edge. The system was solvated using the transferable intermolecular potential with 3 points (TIP3P) water model. A required number of required Na+/Cl- ions were added to neutralize each of the systems. The steepest-descent algorithm was used to minimize each system for addressing the close contacts or overlaps between the atoms. To equally distribute the water molecules and ions around the system, each of the systems was equilibrated through NVT (constant number of particles, volume and temperature) followed by NPT (constant number of particles, pressure and temperature). On successful completion, the MD simulation trajectories were used to calculate several parameters including protein backbone RMSD, root-mean-square fluctuation (RMSF), radius of gyration (RoG), intramolecular H-bonds and solvent accessible surface area (SASA).
 
+
 REQUIREMENTS
 1. GROMACS v23.5.0
 2. Prepared protein with fixed hydrogens, atoms, selected chain for running simulation.
 3. CHARMM36 force field (https://mackerell.umaryland.edu/download.php?filename=CHARMM_ff_params_files/charmm36-jul2022.ff.tgz)
 4. Download ions.mdp, minim.mdp, nvt.mdp, npt.mdp and md.mdp
+
 
 AUTOMATED PYTHON CODE
 1. Replace the protein input filename and enter the output filename in the Lysozyme_in_water.py python script.
@@ -33,6 +35,7 @@ AUTOMATED PYTHON CODE
 6. For visualisation of the plots rum visualisation.py code and input the .xvg files as input for generating the graph.
 
    python3 visualisation.py
+
 
 REFERENCES
 1. Kuzmanic A, Bowman GR, Juarez-Jimenez J, Michel J, Gervasio FL. Investigating Cryptic Binding Sites by Molecular Dynamics Simulations. Acc Chem Res. 2020 Mar 17;53(3):654-661. doi: 10.1021/acs.accounts.9b00613. Epub 2020 Mar 5. PMID: 32134250; PMCID: PMC7263906.
