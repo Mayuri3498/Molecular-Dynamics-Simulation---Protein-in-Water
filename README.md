@@ -19,6 +19,14 @@ REQUIREMENTS
 3. CHARMM36 force field (https://mackerell.umaryland.edu/download.php?filename=CHARMM_ff_params_files/charmm36-jul2022.ff.tgz)
 4. Download ions.mdp, minim.mdp, nvt.mdp, npt.mdp and md.mdp
 
+AUTOMATED PYTHON CODE
+1. Replace the protein input filename and enter the output filename in the Lysozyme_in_water.py python script.
+2. Run the python code.
+   python3 Lysozyme_in_water.py
+3. All the files will be generated after the molecular dynamics simulation step.
+4. Post-molecular dynamics simulation analysis are to be performed. Enter the md_tpr, md_xtc, em_tpr and output filename without extension. The protein center xtc file, protein rmsd, radius of gyration, rmsf, solvent accessible surface area and hydrogen bond .xvg files will be generated. Visualisation of these parameters can be analysed using graphs.
+   python3 Lysozyme_mda.py
+
 REFERENCES
 1. Kuzmanic A, Bowman GR, Juarez-Jimenez J, Michel J, Gervasio FL. Investigating Cryptic Binding Sites by Molecular Dynamics Simulations. Acc Chem Res. 2020 Mar 17;53(3):654-661. doi: 10.1021/acs.accounts.9b00613. Epub 2020 Mar 5. PMID: 32134250; PMCID: PMC7263906.
 2. Ahmed M, Maldonado AM, Durrant JD. From byte to bench to bedside: molecular dynamics simulations and drug discovery. BMC Biol. 2023 Dec 29;21(1):299. doi: 10.1186/s12915-023-01791-z. PMID: 38155355; PMCID: PMC10755930.
