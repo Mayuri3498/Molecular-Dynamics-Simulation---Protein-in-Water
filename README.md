@@ -1,4 +1,4 @@
-# Molecular-Dynamics-Simulation: Protein-in-Water
+# Molecular Dynamics Simulation: Protein-in-Water
 Automated Python pipeline for performing Molecular Dynamics simulation using GROMACS for proteins in explicit water with ions. Structure preparation, solvation, ionisation, energy minimisation, NVT/NPT equilibration, and production MD and performing RMSD, RMSF, and energy analysis for efficient and scalable biomolecular simulations.
 
 A protein binding pocket is a cavity or groove located on the surface or interior of a protein where small molecules, drugs, or ligands selectively bind. Accurately characterising these pockets is central to structure-based drug discovery (SBDD). However, since pharmacologically relevant pockets are inherently dynamic, static structural snapshots they are insufficient for effective Computer-Aided Drug Design (CADD).
